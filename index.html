@@ -1,0 +1,434 @@
+  <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - iPortfolio Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@300;500;700&family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      background: #000;
+    }
+
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+      pointer-events: auto !important;
+      z-index: 2 !important;
+    }
+
+    /* Remove all overlay, background, and pointer-events from portfolio-content and children */
+    .portfolio-content,
+    .portfolio-content:hover,
+    .portfolio-content::before,
+    .portfolio-content::after,
+    .portfolio-content .portfolio-info,
+    .portfolio-content .portfolio-info::before,
+    .portfolio-content .portfolio-info::after {
+      background: none !important;
+      box-shadow: none !important;
+      filter: none !important;
+      opacity: 1 !important;
+      pointer-events: none !important;
+      z-index: 1 !important;
+      transition: none !important;
+    }
+
+    .video-wrapper,
+    .video-wrapper iframe {
+      pointer-events: auto !important;
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <!-- Header -->
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <div class="profile-img">
+      <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">MANAV JAISWAL</h1>
+    </a>
+    <div class="social-links text-center">
+      <a href="https://www.instagram.com/dits_mj" class="instagram" target="_blank" title="Instagram"><i class="bi bi-instagram"></i></a>
+      <a href="https://wa.me/918269212080" class="whatsapp" target="_blank" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Editing.mj8269@gmail.com&su=Video%20Editing%20Services%20Inquiry&body=Hello%20MJ%2C%0A%0AI%20am%20interested%20in%20your%20video%20editing%20services.%20Please%20share%20more%20details%20about%20your%20work%20and%20pricing.%0A%0AThanks" class="gmail" target="_blank" title="Gmail"><i class="bi bi-envelope-fill"></i></a>
+    </div>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#stats"><i class="bi bi-bar-chart navicon"></i> Stats</a></li>
+        <li><a href="#skills"><i class="bi bi-gear navicon"></i> Skills</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- /Header -->
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+  <h2 class="flicker">MANAV JAISWAL</h2>
+</body>
+<style>
+  .flicker {
+    font-family: 'Merienda', cursive;
+    color: #fff;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-shadow:
+      0 0 2px #fff,
+      0 0 10px #2196f3,
+      0 0 20px #2196f3,
+      0 0 40px #2196f3,
+      0 0 80px #2196f3;
+    animation: flicker 2s infinite alternate;
+  }
+  @keyframes flicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+      opacity: 1;
+      text-shadow:
+        0 0 2px #fff,
+        0 0 10px #2196f3,
+        0 0 20px #2196f3,
+        0 0 40px #2196f3,
+        0 0 80px #2196f3;
+    }
+    20%, 22%, 24%, 55% {
+      opacity: 0.4;
+      text-shadow: none;
+    }
+  }
+  @keyframes glowGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+</style>
+        <p>I'm <span class="typed" data-typed-items="Video Editor, Motion Designer, Freelancer, Photographer"></span></p>
+      </div>
+    </section>
+    <!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>I’m Manav Jaiswal, a professional freelance video editor with over 5 years of experience.
+I specialize in crafting both short-form and long-form content using Adobe Premiere Pro and After Effects—ranging from dynamic social media clips to cinematic productions. Over the years, I’ve collaborated with brands like Angel One, Oziva, SleepyCat, Money View, and more, helping agencies scale their editing workflow with fast, reliable, and on-brand edits 💼✨.</p>
+      </div>
+    </section>
+    <!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Clients</strong></p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects</strong></p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="400" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours Of Support</strong></p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hard Workers</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Stats Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>Here are my professional editing and design skills.</p>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row skills-content skills-animation">
+          <div class="col-lg-6">
+            <div class="progress"><span class="skill"><span>AFTER EFFECTS</span> <i class="val">100%</i></span>
+              <div class="progress-bar-wrap"><div class="progress-bar" role="progressbar" aria-valuenow="100"></div></div>
+            </div>
+            <div class="progress"><span class="skill"><span>PREMIERE PRO</span> <i class="val">100%</i></span>
+              <div class="progress-bar-wrap"><div class="progress-bar" role="progressbar" aria-valuenow="100"></div></div>
+            </div>
+            <div class="progress"><span class="skill"><span>PHOTOSHOP</span> <i class="val">95%</i></span>
+              <div class="progress-bar-wrap"><div class="progress-bar" role="progressbar" aria-valuenow="95"></div></div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="progress"><span class="skill"><span>AI COMPATIBLE</span> <i class="val">100%</i></span>
+              <div class="progress-bar-wrap"><div class="progress-bar" role="progressbar" aria-valuenow="100"></div></div>
+            </div>
+            <div class="progress"><span class="skill"><span>2D MOTION</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap"><div class="progress-bar" role="progressbar" aria-valuenow="90"></div></div>
+            </div>
+            <div class="progress"><span class="skill"><span>SHORT & LONG FORM</span> <i class="val">100%</i></span>
+              <div class="progress-bar-wrap"><div class="progress-bar" role="progressbar" aria-valuenow="100"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Skills Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>My projects include short-form, long-form, and cinematic edits. Each project reflects my creativity and storytelling ability.</p>
+      </div>
+      <div class="container">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-short">Short Form</li>
+            <li data-filter=".filter-long">Long Form</li>
+          </ul>
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200" id="portfolio-videos">
+            <!-- Short Form Videos (IDs 1–59, unique, no duplicates) -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1l_edVsJk5VG8yr02e68meoAdae3d50Uo/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 1</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/179AOYoEcJFZRnEPsW4UPFPWYW79bjygG/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 2</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/14xncfg9UvbP2NTYMxgk7lxjkvb4HxPWX/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 3</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1ZxlUh2-rs1SwJgRx_TpUXApEPv68qzdX/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 4</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1wes2Sh37T-0vukQgUcGySjGnH_amK5XI/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 5</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1ACxwSytcdS4xZJym7Euc-u8L61Ll6vTQ/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 6</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1ordlw-mu_A6h9TufUZW2REsbTVM2MjO5/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 7</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1ZN9FLiZ78Ge_2cTl0n0OKPfROQAEeFbZ/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 8</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1Vyr0NnKaQq1ZNs0dSkLUWL48TqKg1ZxR/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 9</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1EN3phN-9eyUee_z-8XKwiooE8TgdFndp/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 10</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1OAi4jIdJKpVwoKEqzErjumgmY2BJ3fiA/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 11</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1GaDRBX7aQEvaVg8KonHGQvl8We2G30Af/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 12</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/12UfQXWejahEtiErLvbgnwUnbRaPXLtxf/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 13</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1F-EdAu673yLm3BX8rV91PvD-cSKnNK52/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 14</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1V0vfCNuCsakPdEqy9wArWTW9I91_Yg2N/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 15</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1KFDbgIfSPKo3VTQpP-ot51U83AFxEWBw/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 16</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1vmxJWEIdU_xQalT8JzJrWwRtO11eq8MJ/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 17</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1XIYPW3wWxdcWhkCdR5Wi1PRfc2bvK6qn/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 18</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1X927omXF3-qNJFBDYSYDYUpKxDB548dl/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 19</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1U6fUYSxtqPsXlvuPar6Ankx66jl6bE-r/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 20</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1l_edVsJk5VG8yr02e68meoAdae3d50Uo/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 21</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/179AOYoEcJFZRnEPsW4UPFPWYW79bjygG/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 22</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/14xncfg9UvbP2NTYMxgk7lxjkvb4HxPWX/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 23</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1ZxlUh2-rs1SwJgRx_TpUXApEPv68qzdX/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 24</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1wes2Sh37T-0vukQgUcGySjGnH_amK5XI/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 25</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1ACxwSytcdS4xZJym7Euc-u8L61Ll6vTQ/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 26</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1ordlw-mu_A6h9TufUZW2REsbTVM2MjO5/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 27</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1ZN9FLiZ78Ge_2cTl0n0OKPfROQAEeFbZ/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 28</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1Vyr0NnKaQq1ZNs0dSkLUWL48TqKg1ZxR/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 29</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1EN3phN-9eyUee_z-8XKwiooE8TgdFndp/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 30</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1OAi4jIdJKpVwoKEqzErjumgmY2BJ3fiA/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 31</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1GaDRBX7aQEvaVg8KonHGQvl8We2G30Af/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 32</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/12UfQXWejahEtiErLvbgnwUnbRaPXLtxf/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 33</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1F-EdAu673yLm3BX8rV91PvD-cSKnNK52/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 34</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1V0vfCNuCsakPdEqy9wArWTW9I91_Yg2N/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 35</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1KFDbgIfSPKo3VTQpP-ot51U83AFxEWBw/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 36</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1vmxJWEIdU_xQalT8JzJrWwRtO11eq8MJ/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 37</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1XIYPW3wWxdcWhkCdR5Wi1PRfc2bvK6qn/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 38</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1X927omXF3-qNJFBDYSYDYUpKxDB548dl/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 39</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1U6fUYSxtqPsXlvuPar6Ankx66jl6bE-r/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 40</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1l_edVsJk5VG8yr02e68meoAdae3d50Uo/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 41</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/179AOYoEcJFZRnEPsW4UPFPWYW79bjygG/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 42</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/14xncfg9UvbP2NTYMxgk7lxjkvb4HxPWX/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 43</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1ZxlUh2-rs1SwJgRx_TpUXApEPv68qzdX/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 44</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1wes2Sh37T-0vukQgUcGySjGnH_amK5XI/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 45</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1ACxwSytcdS4xZJym7Euc-u8L61Ll6vTQ/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 46</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1ordlw-mu_A6h9TufUZW2REsbTVM2MjO5/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 47</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1ZN9FLiZ78Ge_2cTl0n0OKPfROQAEeFbZ/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 48</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1Vyr0NnKaQq1ZNs0dSkLUWL48TqKg1ZxR/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 49</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1EN3phN-9eyUee_z-8XKwiooE8TgdFndp/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 50</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1OAi4jIdJKpVwoKEqzErjumgmY2BJ3fiA/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 51</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1GaDRBX7aQEvaVg8KonHGQvl8We2G30Af/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 52</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/12UfQXWejahEtiErLvbgnwUnbRaPXLtxf/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 53</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1F-EdAu673yLm3BX8rV91PvD-cSKnNK52/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 54</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1V0vfCNuCsakPdEqy9wArWTW9I91_Yg2N/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 55</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1KFDbgIfSPKo3VTQpP-ot51U83AFxEWBw/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 56</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1vmxJWEIdU_xQalT8JzJrWwRtO11eq8MJ/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 57</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1XIYPW3wWxdcWhkCdR5Wi1PRfc2bvK6qn/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 58</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1X927omXF3-qNJFBDYSYDYUpKxDB548dl/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 59</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/15RKsoMS3aUosO89RGg2XUyYzohpS4sUh/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 60</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1gWw1D_uWeehWp7yDRMTGcTnW6HuPWoAl/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 61</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1zMTbbAUcksKXaTgmqIFwhorfkR82FP1A/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 62</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1K53126709s6c6WOnAZ4RngTcbSqgnZar/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 63</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1leu9VdItx-EXgEhTtLjT0yhMUwMvVwJK/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 64</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1y9UP0RpCP-qD_Qa00XKYIWZsRgIrh61W/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 65</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1bWmzffnC7JhBFE8Z3zDBMdt1nBUEVIyh/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 66</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1VU4dep8YXD2tg_KCD6bZR5SvJM-QZDB6/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 67</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1yRfUDmZVdMxcVjCsYLS7raN5W0CZVJPY/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 68</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1s9UDuuhE_bgG7Kaz1L9ermzGuieb56vn/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 69</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1L5nHa_v2rKJl9mxD6YIPUuXD9E0x1aIC/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 70</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-short"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1iAbehMxfr5EoOg2cZOjRs2K2KfwyKwf5/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Short Form 71</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-long"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/14SHPnvXVXSEXo14gKB3z1hRD3iaFjt-g/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Long Form 1</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-long"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1JV75VM2j1yUpkXcD8ZhVjh93F6rUa3q2/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Long Form 2</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-long"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/17kw3tnHJ0B8s25tblO2CYHPWsEX_B38u/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Long Form 3</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-long"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1-5A1yWnpm-PwDEOBU38-4aAWUvSByKv6/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Long Form 4</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-long"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1LV6mbd-Z97AXE4LK5IIGiL6kKLLTZ7s6/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Long Form 5</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-long"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1_g0bDMMk8ePRU248SH47X9DOZyzTk5gs/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Long Form 6</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-long"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1oIvczMFpyrChzMHctqMvwa1kk8tn7uRD/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Long Form 7</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-long"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1jesLqDFsdsdrVJg3MS8aed8VBUzbuwQr/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Long Form 8</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-long"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1VQ369xpN6oG5uhna7KAfpDvFrZoDn-BV/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Long Form 9</h4></div></div></div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-long"><div class="portfolio-content h-100"><div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1aC3TchGho4-x3zINMejbvKTzRmvdhhvn/preview" allow="autoplay; fullscreen"></iframe></div><div class="portfolio-info"><h4>Long Form 10</h4></div></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Portfolio Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>I provide end-to-end video editing services including short-form reels, cinematic edits, motion graphics, and content tailored for social media growth.</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up">
+            <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+            <div><h4 class="title">Professional Editing</h4><p class="description">From raw footage to polished final cut.</p></div>
+          </div>
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+            <div><h4 class="title">Motion Graphics</h4><p class="description">Custom After Effects animations and design.</p></div>
+          </div>
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
+            <div><h4 class="title">Content Strategy</h4><p class="description">Edits designed to maximize reach and engagement.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Services Section -->
+
+    <!-- Testimonials Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Let’s work together on your next project.</p>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-5">
+            <div class="info-wrap">
+              <div class="info-item d-flex">
+                <a href="https://www.instagram.com/dits_mj" class="instagram" target="_blank" title="Instagram"><i class="bi bi-instagram flex-shrink-0"></i></a>
+                <div>
+                  <h3>Instagram</h3>
+                  <p><a href="https://www.instagram.com/dits_mj" target="_blank">@dits_mj</a></p>
+                </div>
+              </div>
+              <div class="info-item d-flex">
+                <a href="https://wa.me/918269212080" class="whatsapp" target="_blank" title="WhatsApp"><i class="bi bi-whatsapp flex-shrink-0"></i></a>
+                <div>
+                  <h3>WhatsApp</h3>
+                  <p><a href="https://wa.me/918269212080" target="_blank">+91 82692 12080</a></p>
+                </div>
+              </div>
+              <div class="info-item d-flex">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Editing.mj8269@gmail.com&su=Video%20Editing%20Services%20Inquiry&body=Hello%20MJ%2C%0A%0AI%20am%20interested%20in%20your%20video%20editing%20services.%20Please%20share%20more%20details%20about%20your%20work%20and%20pricing.%0A%0AThanks" class="gmail" target="_blank" title="Gmail"><i class="bi bi-envelope-fill flex-shrink-0"></i></a>
+                <div>
+                  <h3>Gmail</h3>
+                  <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=Editing.mj8269@gmail.com&su=Video%20Editing%20Services%20Inquiry&body=Hello%20MJ%2C%0A%0AI%20am%20interested%20in%20your%20video%20editing%20services.%20Please%20share%20more%20details%20about%20your%20work%20and%20pricing.%0A%0AThanks" target="_blank">Editing.mj8269@gmail.com</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <!-- Contact form removed as requested -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+  <!-- Footer removed as requested -->
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
